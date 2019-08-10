@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创驿站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <script type="application/javascript" src="js/jquery-1.11.1.js"></script>
+    <script type="application/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="main_menu">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="sr-only">展开导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a href="#" class="navbar-brand m_bra">
+                <img src="img/logo.png" alt="" class="logo">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse m_bar" id="menu">
+            <ul class="nav navbar-nav m_nav">
+                <li><a href="index.html" >首页</a></li>
+                <li><a href="intorduction.html">公司简介</a></li>
+                <!-- 这里将下拉菜单改为具体的公司产品简介 -->
+                <li><a href="goodintroduce.html">产品介绍</a></li>
+                <li><a href="news.html">新闻资讯</a></li>
+                <li><a href="pinpai.html">品牌战略</a></li>
+                <li><a href="wenhua.html" class="active">公司文化</a></li>
+                <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">联系我们 <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href=""><img src="img/wechat.png" style="height: auto;width: 100%;" alt=""></a></li>
+                        <li><a href="">Tel:0121-123455</a></li>
+                        <li><a href="">Tel:15172189627</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="row" style="margin-top: 100px;width: 80%; margin-left: auto; margin-right: auto;">
+    <div class="text-center" style="margin-bottom: 20px;">
+        <h2>公司荣誉</h2>
+    </div>
+
+    <!-- <div style="width: 100%; height: 300px;">
+        <img src="img/award1.jpg" style="width: 20%; height: auto;" alt="">
+        <img src="img/award2.jpg" style="width: 20%; height: auto;" alt="">
+        <img src="img/award3.jpg" style="width: 20%; height: auto;" alt="">
+        <img src="img/award4.jpg" style="width: 20%; height: auto;" alt="">
+    </div> -->
+
+
+    <div id="box" class="carousel slide" data-ride="carousel">
+          <!--标识-->
+    <ol class="carousel-indicators">
+            <li data-target="#box" data-slide-to="0" class="active"></li>
+            <li data-target="#box" data-slide-to="1"></li>
+            <li data-target="#box" data-slide-to="2"></li>
+        </ol>
+        <!--幻灯片-->
+        <div class="carousel-inner" style="height: 300px"> 
+
+            <div class="item active">
+                <div class="pic">
+                        <img src="img/award1.jpg" alt="" style="width: 33%;height: auto;">
+                        <img src="img/award2.jpg" alt="" style="width: 33%;height: auto;">
+                        <img src="img/award3.jpg" alt="" style="width: 33%;height: auto;">
+                </div>
+                
+            </div>
+            <div class="item">
+                    <div class="pic">
+                            <img src="img/award4.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award5.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award6.jpg" alt="" style="width: 33%;height: auto;">
+                    </div>
+            </div>
+            <div class="item">
+                    <div class="pic">
+                            <img src="img/award7.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award8.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award9.jpg" alt="" style="width: 33%;height: auto;">
+                    </div>
+            </div>
+            <div class="item">
+                    <div class="pic">
+                            <img src="img/award10.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award11.jpg" alt="" style="width: 33%;height: auto;">
+                            <img src="img/award12.jpg" alt="" style="width: 33%;height: auto;">
+                    </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#box" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#box" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+           
+
+
+        </div>
+
+        <div class="text-center" style="margin-bottom: 20px;">
+                <h2>公司活动</h2>
+            </div>
+            
+            <div>
+                    <div class="col-md-4">
+                            <div class="col-md-12 carousel slide" data-ride="carousel" id="box2">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#box2" data-slide-to="0" class="active"></li>
+                                    <li data-target="#box2" data-slide-to="1"></li>
+                                    <li data-target="#box2" data-slide-to="2"></li>
+                                </ol>
+                                <!--幻灯片-->
+                                <div class="carousel-inner" >
+                                    <div class="item active">
+                                        <img src="img/activ1.png" alt="">
+                                        <h5 class="text-center">创业沙龙one</h5>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/activ2.png" alt="">
+                                        <h5 class="text-center">创业交流two</h5>
+                                    </div>
+                                    <div class="item">
+                                        <img src="img/ac5.jpg" alt="">
+                                        <h5 class="text-center">创业交流three</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                                <div class="col-md-12 carousel slide" data-ride="carousel" id="box2">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#box2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#box2" data-slide-to="1"></li>
+                                        <li data-target="#box2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!--幻灯片-->
+                                    <div class="carousel-inner" >
+                                        <div class="item active">
+                                            <img src="img/activ4.png" alt="">
+                                            <h5 class="text-center">孵化器走访学习</h5>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/activ5.png" alt="">
+                                            <h5 class="text-center">校园“创业晚自习”</h5>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/activ6.png" alt="">
+                                            <h5 class="text-center">党建活动</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+            <div class="col-md-4">
+                    <div class="col-md-12 carousel slide" data-ride="carousel" id="box2">
+                        <ol class="carousel-indicators">
+                            <li data-target="#box2" data-slide-to="0" class="active"></li>
+                            <li data-target="#box2" data-slide-to="1"></li>
+                            <li data-target="#box2" data-slide-to="2"></li>
+                        </ol>
+                        <!--幻灯片-->
+                        <div class="carousel-inner" >
+                            <div class="item active">
+                                <img src="img/activ7.png" alt="">
+                                <h5 class="text-center">小龙虾供销合作计划</h5>
+                            </div>
+                            <div class="item">
+                                <img src="img/ac1.jpg" alt="">
+                                <h5 class="text-center">交流学习</h5>
+                            </div>
+                            <div class="item">
+                                <img src="img/ac2.jpg" alt="">
+                                <h5 class="text-center">商业路演</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+    
+</div>
+</body>
+</html>
