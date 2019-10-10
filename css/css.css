@@ -101,7 +101,6 @@ a:hover, a.active{
     margin-bottom: 16px;
     font-weight: 400;
 }
-
 .good_desc p{
     font-size: 1.1em;
     color: #3e3e3e;
@@ -131,4 +130,16 @@ a:hover, a.active{
 }
 .news_main{
     margin-top: 100px;
+}
+.article-line{
+    height: 35px;
+}
+.news-other{
+    width:100%;
+    margin-top: 50px;
+}
+.goodsnews{
+    margin-top: 50px;
+    width: 94%;
+    margin: 0px auto;
 }
